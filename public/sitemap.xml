@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+    <!-- Homepage - Enhanced with comprehensive AI note-taking keywords -->
+    <url>
+        <loc>https://oktonote.app/</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/oktonote-light.png</image:loc>
+            <image:title>OktoNote - AI-Powered Note-Taking App</image:title>
+            <image:caption>Transform your thoughts into organized knowledge cards with AI</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Features Page - Detailed AI capabilities and 10 card types -->
+    <url>
+        <loc>https://oktonote.app/features.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/feed-view.jpg</image:loc>
+            <image:title>OktoNote Features - AI Categorization in Action</image:title>
+            <image:caption>See how AI organizes your content into knowledge cards</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Support Page - Comprehensive help and troubleshooting -->
+    <url>
+        <loc>https://oktonote.app/support.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Privacy Policy - Enhanced with data protection keywords -->
+    <url>
+        <loc>https://oktonote.app/privacy.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Terms of Service - Enhanced with legal and usage terms -->
+    <url>
+        <loc>https://oktonote.app/terms.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Specific Feature Sections (for deep linking) -->
+    <url>
+        <loc>https://oktonote.app/features.html#input</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/features.html#feed-view</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/features.html#timeline-view</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/features.html#search</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Support Sections -->
+    <url>
+        <loc>https://oktonote.app/support.html#faq</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/support.html#categories</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Main Landing Page Sections -->
+    <url>
+        <loc>https://oktonote.app/#features</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/#how-it-works</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/#download</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Blog Index - AI productivity tips and digital organization guides -->
+    <url>
+        <loc>https://oktonote.app/blog/</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/blog-hero.jpg</image:loc>
+            <image:title>OktoNote Blog - AI Note-Taking Tips</image:title>
+            <image:caption>Discover productivity guides and digital organization strategies</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Blog Posts - Enhanced with comprehensive keyword coverage -->
+    <url>
+        <loc>https://oktonote.app/blog/how-to-journal-in-2025.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/blog-hero.jpg</image:loc>
+            <image:title>How to Journal in 2025: AI-Powered Journaling</image:title>
+            <image:caption>Modern journaling techniques with AI assistance</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/blog/travel-utility-no-one-thinks-about.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/blog-hero.jpg</image:loc>
+            <image:title>Hidden Travel Utility for Smart Organization</image:title>
+            <image:caption>The AI travel planning tool that saves hours of stress</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/blog/quickest-way-capture-thoughts.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/blog-hero.jpg</image:loc>
+            <image:title>Fastest Methods to Capture Ideas and Never Lose Them</image:title>
+            <image:caption>Multi-modal thought capture with instant organization</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/blog/ai-era-stop-organizing-notes.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/blog-hero.jpg</image:loc>
+            <image:title>AI Era: Stop Organizing Notes Manually</image:title>
+            <image:caption>Why automatic AI organization beats manual filing in 2025</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/blog/best-note-takers-professionals.html</loc>
+        <lastmod>2025-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/blog-hero.jpg</image:loc>
+            <image:title>Best 5 Note Apps for Professionals in 2025</image:title>
+            <image:caption>Comprehensive review of top professional note-taking tools</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/blog/ai-note-taking-showdown-daily-vs-professional.html</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/blog-hero.jpg</image:loc>
+            <image:title>AI Note-Taking Showdown: Daily vs Professional</image:title>
+            <image:caption>OktoNote vs Mem.ai comparison for different use cases</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://oktonote.app/blog/oktonote-vs-mem-ai-complete-comparison.html</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/blog-hero.jpg</image:loc>
+            <image:title>OktoNote vs Mem.ai: Complete Comparison Guide</image:title>
+            <image:caption>In-depth analysis of AI note-taking solutions for 2024</image:caption>
+        </image:image>
+    </url>
+
+</urlset>

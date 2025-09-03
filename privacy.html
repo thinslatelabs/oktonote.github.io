@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - OktoNote | Data Protection & User Privacy</title>
+    <meta name="description" content="OktoNote Privacy Policy - Learn how we protect your data and privacy. Comprehensive privacy protection for your notes, documents, and personal information with AI-powered note-taking.">
+    <meta name="keywords" content="OktoNote privacy policy, data protection, user privacy, note app privacy, AI privacy, data security, privacy rights, data handling, information security, GDPR compliance, user data protection, privacy terms, data collection policy, AI note privacy, secure notes">
+    <meta name="author" content="OktoNote">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oktonote.app/privacy.html">
+    <meta property="og:title" content="Privacy Policy - OktoNote">
+    <meta property="og:description" content="Learn how OktoNote protects your data and privacy with comprehensive privacy protection for your notes and personal information.">
+    <meta property="og:image" content="https://oktonote.app/og_card.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://oktonote.app/privacy.html">
+    <meta property="twitter:title" content="Privacy Policy - OktoNote">
+    <meta property="twitter:description" content="Learn how OktoNote protects your data and privacy with comprehensive privacy protection for your notes and personal information.">
+    <meta property="twitter:image" content="https://oktonote.app/og_card.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://oktonote.app/privacy.html">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/main-site.css">
+    
+    <!-- Page-specific styles -->
+    <style>
+        :root {
+            /* Colors from PrinterDesignSystem */
+            --primary: #4B5EAA;
+            --text-heading: #2C3E50;
+            --text-common: #34495E;
+            --paper-base: #E8EAED;
+            --card-clean: #FFFFFF;
+            --border-jagged: #868E96;
+            
+            /* Typography */
+            --font-heading: 'Courier Prime', monospace;
+            --font-common: 'Courier Prime', monospace;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--font-common);
+            background-color: var(--paper-base);
+            color: var(--text-common);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--card-clean);
+            border-bottom: 2px solid var(--border-jagged);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        .back-link {
+            color: var(--text-common);
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.3s ease;
+        }
+        
+        .back-link:hover {
+            color: var(--primary);
+        }
+        
+        /* Main Content */
+        .main {
+            background: var(--card-clean);
+            margin: 2rem auto;
+            border: 2px solid var(--border-jagged);
+            border-radius: 12px;
+            padding: 3rem;
+        }
+        
+        .main h1 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: var(--text-heading);
+            margin-bottom: 1rem;
+        }
+        
+        .last-updated {
+            color: var(--border-jagged);
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        
+        .main h2 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--text-heading);
+            margin: 2rem 0 1rem 0;
+        }
+        
+        .main h3 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--text-heading);
+            margin: 1.5rem 0 0.5rem 0;
+        }
+        
+        .main p {
+            margin-bottom: 1rem;
+        }
+        
+        .main ul {
+            margin: 1rem 0 1rem 2rem;
+        }
+        
+        .main li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .main a {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+        
+        .main a:hover {
+            text-decoration: none;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--text-heading);
+            color: var(--card-clean);
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .footer a {
+            color: var(--card-clean);
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .main {
+                padding: 2rem 1rem;
+                margin: 1rem 0;
+            }
+            
+            .main h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    {{> header}}
+
+    <!-- Main Content -->
+    <main class="main container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last updated: January 2025</p>
+
+        <div style="background: rgba(75, 94, 170, 0.1); border: 1px solid var(--primary); border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem;">
+            <p><strong style="color: var(--primary);">Your Privacy Matters:</strong> At OktoNote, operated by <strong>Thinslate Labs, LLC</strong>, we are committed to protecting your privacy and being transparent about how we handle your data.</p>
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        
+        <h3>Personal Information</h3>
+        <ul>
+            <li><strong>Account Information:</strong> Name, email address from authentication providers (Apple, Google, or OTP)</li>
+            <li><strong>Authentication Data:</strong> Tokens and credentials for account access</li>
+            <li><strong>Profile Information:</strong> Avatar and preferences you choose to provide</li>
+        </ul>
+
+        <h3>Content You Upload</h3>
+        <ul>
+            <li><strong>Text Content:</strong> Notes, messages, and text you input for processing</li>
+            <li><strong>Audio Files:</strong> Voice recordings up to 10MB for transcription and processing</li>
+            <li><strong>Images:</strong> Photos and images up to 10MB for OCR and analysis</li>
+            <li><strong>Documents:</strong> Files up to 10MB for parsing and organization</li>
+            <li><strong>AI-Generated Content:</strong> Processed results and organized knowledge cards created from your input</li>
+        </ul>
+
+        <h3>Usage Analytics</h3>
+        <ul>
+            <li><strong>Usage Patterns:</strong> How you interact with features, processing frequency, content types</li>
+            <li><strong>Credit Usage:</strong> Tracking of credit consumption for billing and analytics</li>
+            <li><strong>Technical Data:</strong> Device information, app version, performance metrics</li>
+            <li><strong>Error Logs:</strong> Crash reports and error information to improve service reliability</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        
+        <h3>Core Service Operations</h3>
+        <ul>
+            <li><strong>AI Content Processing:</strong> Process your uploaded content using third-party AI services to create organized knowledge cards</li>
+            <li><strong>Cross-Device Sync:</strong> Synchronize your content and preferences across all your devices</li>
+            <li><strong>Search & Organization:</strong> Enable intelligent search and content organization features</li>
+            <li><strong>Credit Management:</strong> Track usage and manage your subscription billing</li>
+        </ul>
+
+        <h3>Service Improvement</h3>
+        <ul>
+            <li><strong>Feature Development:</strong> Analyze usage patterns to improve existing features and develop new ones</li>
+            <li><strong>Quality Assurance:</strong> Monitor service performance and reliability</li>
+            <li><strong>Customer Support:</strong> Provide technical assistance and resolve issues</li>
+        </ul>
+
+        <h3>Communication</h3>
+        <ul>
+            <li><strong>Service Updates:</strong> Notify you about important changes, new features, or policy updates</li>
+            <li><strong>Account Management:</strong> Send account-related notifications and security alerts</li>
+        </ul>
+
+        <h2>3. Third-Party AI Services</h2>
+        <p><strong style="color: var(--primary);">Important:</strong> We use third-party AI services to process your content. Your data may be shared with these services <strong>solely for processing purposes</strong>:</p>
+        <ul>
+            <li>Content is processed to provide AI organization and analysis features</li>
+            <li><strong>We do not use your content to train AI models</strong> or for any purposes beyond your specific processing requests</li>
+            <li>Third-party processors are bound by data processing agreements to protect your information</li>
+            <li>Processing occurs only when you actively submit content for AI analysis</li>
+        </ul>
+
+        <h2>4. Data Security</h2>
+        <p>We implement comprehensive security measures to protect your data:</p>
+        <ul>
+            <li><strong>Encryption:</strong> All data is encrypted in transit using HTTPS and at rest using industry-standard encryption</li>
+            <li><strong>Access Controls:</strong> Strict access controls limit who can access your data within our organization</li>
+            <li><strong>Infrastructure Security:</strong> Secure cloud infrastructure with regular security audits and monitoring</li>
+            <li><strong>Authentication:</strong> Strong authentication requirements for all system access</li>
+            <li><strong>Incident Response:</strong> Procedures in place to detect, respond to, and notify about security incidents</li>
+        </ul>
+
+        <h2>5. Data Retention & Deletion</h2>
+        
+        <h3>Content Retention</h3>
+        <ul>
+            <li><strong>Your Content:</strong> Retained until you choose to delete it or close your account</li>
+            <li><strong>No Auto-Deletion:</strong> We do not automatically delete your content based on time periods</li>
+            <li><strong>Complete Control:</strong> You can delete individual items or your entire account at any time</li>
+        </ul>
+
+        <h3>Account Deletion</h3>
+        <ul>
+            <li>When you delete your account, all associated content and data are <strong>permanently removed</strong> from our systems</li>
+            <li>Some anonymized analytics data may be retained for service improvement</li>
+            <li>Deletion is irreversible and cannot be undone</li>
+        </ul>
+
+        <h3>Legal Retention</h3>
+        <p>Some data may be retained longer if required for legal, safety, or security purposes, including:</p>
+        <ul>
+            <li>Compliance with legal obligations</li>
+            <li>Resolution of disputes</li>
+            <li>Prevention of fraud and abuse</li>
+        </ul>
+
+        <h2>6. Your Privacy Rights</h2>
+        <p>You have the following rights regarding your personal information:</p>
+        <ul>
+            <li><strong>Access:</strong> Request a copy of all personal data we hold about you</li>
+            <li><strong>Correction:</strong> Request correction of inaccurate or incomplete information</li>
+            <li><strong>Deletion:</strong> Request deletion of your account and all associated data</li>
+            <li><strong>Data Portability:</strong> Export your content in a structured format</li>
+            <li><strong>Opt-Out:</strong> Unsubscribe from marketing communications</li>
+            <li><strong>Restrict Processing:</strong> Request limitations on how we process your data</li>
+        </ul>
+
+        <h3>Exercising Your Rights</h3>
+        <p>To exercise any of these rights, contact us at <a href="mailto:support@oktonote.app">support@oktonote.app</a>. We will respond to your request within 30 days.</p>
+
+        <h2>7. Data Sharing & Disclosure</h2>
+        
+        <h3>We Do NOT Sell Your Data</h3>
+        <p><strong>We do not sell, rent, or trade your personal information to third parties for marketing purposes.</strong></p>
+
+        <h3>Limited Sharing Scenarios</h3>
+        <p>We may share your information only in these specific circumstances:</p>
+        <ul>
+            <li><strong>Third-Party AI Services:</strong> For content processing as described above</li>
+            <li><strong>Cloud Infrastructure Providers:</strong> For secure data storage and service operation</li>
+            <li><strong>Legal Requirements:</strong> When required by law, court order, or to protect legal rights</li>
+            <li><strong>Safety & Security:</strong> To prevent fraud, abuse, or protect user safety</li>
+            <li><strong>Business Transfers:</strong> In connection with mergers, acquisitions, or asset sales (with notice to users)</li>
+        </ul>
+
+        <h2>8. International Data Transfers</h2>
+        <p>OktoNote operates globally and may process your data in countries outside your residence, including the United States. We ensure appropriate safeguards are in place to protect your privacy rights regardless of processing location.</p>
+
+        <h2>9. Cookies & Tracking</h2>
+        <ul>
+            <li><strong>Authentication:</strong> Essential cookies to maintain your login session</li>
+            <li><strong>Preferences:</strong> Store your app settings and preferences locally</li>
+            <li><strong>Analytics:</strong> Anonymous usage analytics to improve our service</li>
+            <li><strong>No Third-Party Tracking:</strong> We do not use third-party tracking cookies for advertising</li>
+        </ul>
+
+        <h2>10. Children's Privacy</h2>
+        <p>OktoNote is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we discover we have collected information from a child under 13, we will delete it immediately.</p>
+
+        <h2>11. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. When we make changes:</p>
+        <ul>
+            <li>We will notify you via email and/or app notification</li>
+            <li>The updated policy will be posted on our website</li>
+            <li>Material changes will include a reasonable notice period before taking effect</li>
+            <li>Continued use after notification constitutes acceptance of the updated policy</li>
+        </ul>
+
+        <div style="background: var(--paper-base); padding: 1.5rem; border-radius: 8px; margin: 2rem 0; text-align: center;">
+            <p><strong>Privacy Questions or Concerns?</strong><br>
+            Contact us at: <a href="mailto:support@oktonote.app">support@oktonote.app</a></p>
+        </div>
+
+        <div style="text-align: center; font-style: italic; color: var(--border-jagged); margin: 3rem 0 1rem 0; padding-top: 2rem; border-top: 1px solid var(--border-jagged);">
+            <p>This Privacy Policy is effective as of January 2025.</p>
+            <p><strong>Thinslate Labs, LLC</strong><br>
+            Delaware, United States</p>
+        </div>
+    </main>
+
+    {{> footer}}
+
+</body>
+</html>

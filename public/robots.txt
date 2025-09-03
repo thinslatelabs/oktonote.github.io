@@ -1,0 +1,46 @@
+# Robots.txt for OktoNote Landing Page
+# This file tells search engine crawlers how to access our site
+
+# Allow all crawlers to access all content
+User-agent: *
+Allow: /
+
+# Specific crawlers we want to prioritize
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow access to private/development files and directories
+Disallow: /assets/dev/
+Disallow: /temp/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /*.log$
+
+# Allow access to assets and images
+Allow: /assets/images/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /components/
+Allow: /blog/
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://oktonote.app/sitemap.xml
+
+# Additional sitemaps (if you create them later)
+# Sitemap: https://oktonote.app/sitemap-images.xml
+# Sitemap: https://oktonote.app/sitemap-news.xml
+
+# Host directive (helps with canonicalization)
+Host: https://oktonote.app

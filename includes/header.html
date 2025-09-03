@@ -1,0 +1,51 @@
+<!-- Header -->
+<header class="header">
+    <nav class="nav container">
+        <a href="/" class="logo">
+            <img src="/assets/images/oktonote-light.png" alt="OktoNote" style="height: 32px; width: 32px; object-fit: contain;">
+            <span style="font-family: 'Courier Prime', monospace; font-weight: 700; font-size: 1.8rem; color: var(--primary); margin-left: 8px;">OktoNote</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="/features">Features</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/#download">Download</a></li>
+        </ul>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+    </nav>
+</header>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    
+    if (mobileMenuToggle && navLinks) {
+        mobileMenuToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        const navLinkItems = navLinks.querySelectorAll('a');
+        navLinkItems.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const isClickInsideNav = navLinks.contains(event.target) || mobileMenuToggle.contains(event.target);
+            if (!isClickInsideNav && navLinks.classList.contains('active')) {
+                mobileMenuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+    }
+});
+</script>

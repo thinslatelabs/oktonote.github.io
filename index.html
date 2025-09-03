@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>OktoNote - AI-Powered Note-Taking App | Transform Your Thoughts Into Organized Knowledge Cards</title>
+    <meta name="title" content="OktoNote - AI-Powered Note-Taking App | Transform Your Thoughts Into Organized Knowledge Cards">
+    <meta name="description" content="OktoNote uses AI to transform any input - text, voice, photos, documents - into organized knowledge cards. Automatically categorize content as tasks, todos, journals, itineraries, links, attachments, lists, discussion notes, details to remember, and study materials. Work offline with intelligent search across all your content.">
+    <meta name="keywords" content="note taking app, AI notes, knowledge management, task manager, todo app, journal app, itinerary planner, link organizer, file manager, list maker, meeting notes, discussion notes, study notes, details organizer, voice notes, photo notes, document scanner, offline notes, smart notes, intelligent search, productivity app, note organizer, digital notebook, knowledge cards, AI categorization, 10 note types, multi-modal input, voice to text, OCR notes, automatic organization, semantic search, offline first, cross-platform notes, AI assistant, digital brain, second brain, PKM, personal knowledge management, PARA method, GTD getting things done, zettelkasten, note capture, thought organization, productivity tools 2025, best note app, smart notebook, AI productivity, digital memory, knowledge base, content management, information organization">
+    <meta name="author" content="OktoNote">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="OktoNote">
+    <meta property="og:url" content="https://oktonote.app">
+    <meta property="og:title" content="OktoNote - AI-Powered Note-Taking App | Transform Your Thoughts Into Organized Knowledge Cards">
+    <meta property="og:description" content="Capture anything - text, voice, photos, documents. OktoNote's AI instantly creates organized knowledge cards across 10 categories: tasks, todos, journals, itineraries, links, attachments, lists, discussion notes, details to remember, and study materials. Work offline with intelligent search.">
+    <meta property="og:image" content="https://oktonote.app/og_card.jpg">
+    <meta property="og:image:alt" content="OktoNote - AI-powered note-taking app with knowledge cards">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="675">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://oktonote.app">
+    <meta property="twitter:title" content="OktoNote - AI-Powered Note-Taking App | Transform Your Thoughts Into Organized Knowledge Cards">
+    <meta property="twitter:description" content="Capture anything - text, voice, photos, documents. OktoNote's AI instantly creates organized knowledge cards across 10 categories: tasks, todos, journals, itineraries, links, attachments, lists, discussion notes, details to remember, and study materials. Work offline with intelligent search.">
+    <meta property="twitter:image" content="https://oktonote.app/og_card.jpg">
+    <meta property="twitter:image:alt" content="OktoNote - AI-powered note-taking app with knowledge cards">
+    <meta property="twitter:creator" content="@oktonote">
+    <meta property="twitter:site" content="@oktonote">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="application-name" content="OktoNote">
+    <meta name="apple-mobile-web-app-title" content="OktoNote">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#4B5EAA">
+    <meta name="msapplication-TileColor" content="#4B5EAA">
+    <meta name="msapplication-navbutton-color" content="#4B5EAA">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "OktoNote",
+      "description": "AI-powered note-taking app that transforms any input into organized knowledge cards across 10 categories: tasks, todos, journals, itineraries, links, attachments, lists, discussion notes, details to remember, and study materials. Features offline support and intelligent search.",
+      "url": "https://oktonote.app",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": ["iOS", "Android", "Web"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "OktoNote",
+        "url": "https://oktonote.app",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://oktonote.app/assets/images/oktonote-light.png"
+        },
+        "sameAs": [
+          "https://twitter.com/oktonote",
+          "https://linkedin.com/company/oktonote"
+        ]
+      },
+      "featureList": [
+        "AI-powered content categorization across 10 types",
+        "Multi-modal input (text, voice, photos, documents)",
+        "Automatic knowledge card creation",
+        "Task and todo management with deadlines",
+        "Journal and memory organization",
+        "Itinerary and schedule planning",
+        "Link collection and organization",
+        "File attachment management",
+        "List creation and tracking",
+        "Discussion and meeting notes",
+        "Details and contact organization",
+        "Study materials and research notes",
+        "Offline-first functionality",
+        "Intelligent semantic search",
+        "Cross-platform synchronization",
+        "Voice-to-text transcription",
+        "Image OCR and analysis",
+        "Document parsing"
+      ],
+      "screenshot": "https://oktonote.app/assets/images/feed-view.jpg",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "1250"
+      }
+    }
+    </script>
+    
+    <!-- App Store & Play Store Links -->
+    <link rel="alternate" href="https://apps.apple.com/app/oktonote" title="Download OktoNote on the App Store">
+    <link rel="alternate" href="https://play.google.com/store/apps/details?id=app.oktonote" title="Get OktoNote on Google Play">
+    
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/ico" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://oktonote.app">
+    
+    <!-- Alternate Languages (for future localization) -->
+    <link rel="alternate" hreflang="en" href="https://oktonote.app">
+    <link rel="alternate" hreflang="x-default" href="https://oktonote.app">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/main-site.css">
+</head>
+<body>
+    {{> header}}
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Capture Everything.<br><span class="typewriter-text" data-text="AI Organizes Everything.">AI Organizes Everything.</span></h1>
+            <p class="hero-subtitle">
+                Post anything - text, voice recordings, images, documents. OktoNote's AI instantly creates organized knowledge cards, making your thoughts searchable and actionable.
+            </p>
+            <div class="hero-preview">
+                <div class="input-methods">
+                    <div class="input-method" data-delay="0">
+                        <i data-feather="edit-3" class="input-icon"></i>
+                        <span>Type</span>
+                    </div>
+                    <div class="input-method" data-delay="200">
+                        <i data-feather="mic" class="input-icon"></i>
+                        <span>Voice</span>
+                    </div>
+                    <div class="input-method" data-delay="400">
+                        <i data-feather="camera" class="input-icon"></i>
+                        <span>Photo</span>
+                    </div>
+                    <div class="input-method" data-delay="600">
+                        <i data-feather="file-plus" class="input-icon"></i>
+                        <span>Document</span>
+                    </div>
+                </div>
+                <div class="arrow-down">↓</div>
+                <div class="ai-magic">
+                    <i data-feather="zap" class="magic-icon"></i>
+                    <span class="magic-text">AI creates knowledge cards</span>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <a href="https://apps.apple.com/app/6749813362" class="app-btn app-store" target="_blank" rel="noopener noreferrer" style="min-width: 220px;">
+                    <svg class="app-icon" viewBox="0 0 24 24" fill="currentColor" style="width: 1.5rem; height: 1.5rem;">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    <div class="app-text">
+                        <div class="small">Download on the</div>
+                        <div class="large">App Store</div>
+                    </div>
+                </a>
+                <a href="#" class="app-btn google-play" onclick="alert('Coming soon to Google Play!')" style="min-width: 220px;">
+                    <svg class="app-icon" viewBox="0 0 24 24" fill="currentColor" style="width: 1.5rem; height: 1.5rem;">
+                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                    </svg>
+                    <div class="app-text">
+                        <div class="small">Get it on</div>
+                        <div class="large">Google Play</div>
+                    </div>
+                    <span class="coming-soon-badge">Soon</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2>How OktoNote Works</h2>
+            <p class="section-subtitle">From chaos to clarity in three simple steps</p>
+            
+            <div class="workflow-steps">
+                <div class="workflow-step" data-step="1">
+                    <div class="step-content">
+                        <div class="step-media">
+                            <div class="screen-placeholder">
+                                <img src="/assets/images/home.jpg" 
+                                     alt="OktoNote capturing content - multiple input methods" 
+                                     class="phone-screenshot">
+                            </div>
+                        </div>
+                        <div class="step-info">
+                            <div class="step-number">01</div>
+                            <h3>Capture Anything</h3>
+                            <p>Post text, record voice memos, snap photos, or upload documents. OktoNote accepts all forms of input - making it effortless to capture your thoughts on the go.</p>
+                            <div class="step-features">
+                                <span class="feature-tag"><i data-feather="edit-3" class="tag-icon"></i>Quick text entry</span>
+                                <span class="feature-tag"><i data-feather="mic" class="tag-icon"></i>Voice recordings</span>
+                                <span class="feature-tag"><i data-feather="camera" class="tag-icon"></i>Photo capture</span>
+                                <span class="feature-tag"><i data-feather="file-plus" class="tag-icon"></i>Document upload</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="workflow-step" data-step="2">
+                    <div class="step-content reverse">
+                        <div class="step-media">
+                            <div class="screen-placeholder">
+                                <img src="/assets/images/feed-view.jpg" 
+                                     alt="OktoNote AI processing - organized knowledge cards" 
+                                     class="phone-screenshot">
+                            </div>
+                        </div>
+                        <div class="step-info">
+                            <div class="step-number">02</div>
+                            <h3>AI Creates Knowledge Cards</h3>
+                            <p>Our AI instantly analyzes your content and creates organized knowledge cards, automatically categorizing them as tasks, todos, itineraries, notes, or journals based on context.</p>
+                            <div class="step-features">
+                                <span class="feature-tag"><i data-feather="check-circle" class="tag-icon"></i>Task detection</span>
+                                <span class="feature-tag"><i data-feather="list" class="tag-icon"></i>Todo lists</span>
+                                <span class="feature-tag"><i data-feather="map" class="tag-icon"></i>Itinerary planning</span>
+                                <span class="feature-tag"><i data-feather="tag" class="tag-icon"></i>Smart categorization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="workflow-step" data-step="3">
+                    <div class="step-content">
+                        <div class="step-media">
+                            <div class="screen-placeholder">
+                                <img src="/assets/images/timeline-view.jpg" 
+                                     alt="OktoNote timeline view - chronological organization" 
+                                     class="phone-screenshot">
+                            </div>
+                        </div>
+                        <div class="step-info">
+                            <div class="step-number">03</div>
+                            <h3>Discover & Organize</h3>
+                            <p>Browse your knowledge cards in the feed view or explore them on a timeline. Use intelligent search to find exactly what you're looking for, even when offline.</p>
+                            <div class="step-features">
+                                <span class="feature-tag"><i data-feather="grid" class="tag-icon"></i>Feed view</span>
+                                <span class="feature-tag"><i data-feather="calendar" class="tag-icon"></i>Timeline organization</span>
+                                <span class="feature-tag"><i data-feather="search" class="tag-icon"></i>Intelligent search</span>
+                                <span class="feature-tag"><i data-feather="wifi-off" class="tag-icon"></i>Offline access</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Powerful Features That Set Us Apart</h2>
+            <div class="features-accordion">
+                <!-- Feature Carousel Container -->
+                <div class="feature-carousel-container">
+                    
+                    <!-- Feature 1: Multi-Modal Input -->
+                    <div class="feature-accordion-item" data-feature="0">
+                        <div class="feature-accordion-content">
+                            <div class="feature-accordion-icon">
+                                <i data-feather="mic" class="feature-icon-svg"></i>
+                            </div>
+                            <div class="feature-accordion-info">
+                                <h3 class="typewriter-feature-title" data-text="Multi-Modal Input"></h3>
+                                <p class="feature-description">Post text, record voice memos, capture photos, or upload documents. Every input method is supported for maximum flexibility.</p>
+                                <div class="feature-details">
+                                    <span><i data-feather="type" class="detail-icon"></i> Voice-to-text transcription</span>
+                                    <span><i data-feather="image" class="detail-icon"></i> Image OCR and analysis</span>
+                                    <span><i data-feather="file-text" class="detail-icon"></i> Document parsing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2: Smart AI Categorization -->
+                    <div class="feature-accordion-item" data-feature="1">
+                        <div class="feature-accordion-content">
+                            <div class="feature-accordion-icon">
+                                <i data-feather="cpu" class="feature-icon-svg"></i>
+                            </div>
+                            <div class="feature-accordion-info">
+                                <h3 class="typewriter-feature-title" data-text="Smart AI Categorization"></h3>
+                                <p class="feature-description">AI automatically creates knowledge cards and categorizes content as tasks, todos, itineraries, notes, or journals based on context.</p>
+                                <div class="feature-details">
+                                    <span><i data-feather="check-circle" class="detail-icon"></i> Automatic task detection</span>
+                                    <span><i data-feather="tag" class="detail-icon"></i> Context-aware sorting</span>
+                                    <span><i data-feather="zap" class="detail-icon"></i> Smart tagging</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3: Feed & Timeline Views -->
+                    <div class="feature-accordion-item" data-feature="2">
+                        <div class="feature-accordion-content">
+                            <div class="feature-accordion-icon">
+                                <i data-feather="grid" class="feature-icon-svg"></i>
+                            </div>
+                            <div class="feature-accordion-info">
+                                <h3 class="typewriter-feature-title" data-text="Feed & Timeline Views"></h3>
+                                <p class="feature-description">Browse your knowledge cards in a beautiful feed view or organize them on an interactive timeline for easy navigation.</p>
+                                <div class="feature-details">
+                                    <span><i data-feather="grid" class="detail-icon"></i> Card-based feed interface</span>
+                                    <span><i data-feather="calendar" class="detail-icon"></i> Chronological timeline</span>
+                                    <span><i data-feather="filter" class="detail-icon"></i> Filtered views</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 4: Intelligent Search -->
+                    <div class="feature-accordion-item" data-feature="3">
+                        <div class="feature-accordion-content">
+                            <div class="feature-accordion-icon">
+                                <i data-feather="search" class="feature-icon-svg"></i>
+                            </div>
+                            <div class="feature-accordion-info">
+                                <h3 class="typewriter-feature-title" data-text="Intelligent Search"></h3>
+                                <p class="feature-description">Find exactly what you're looking for with AI-powered search that understands context, not just keywords.</p>
+                                <div class="feature-details">
+                                    <span><i data-feather="search" class="detail-icon"></i> Semantic search</span>
+                                    <span><i data-feather="layers" class="detail-icon"></i> Cross-content search</span>
+                                    <span><i data-feather="zap" class="detail-icon"></i> Instant results</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 5: Complete Offline Access -->
+                    <div class="feature-accordion-item" data-feature="4">
+                        <div class="feature-accordion-content">
+                            <div class="feature-accordion-icon">
+                                <i data-feather="wifi-off" class="feature-icon-svg"></i>
+                            </div>
+                            <div class="feature-accordion-info">
+                                <h3 class="typewriter-feature-title" data-text="Complete Offline Access"></h3>
+                                <p class="feature-description">All your content and files work perfectly offline. No internet? No problem. Your knowledge is always accessible.</p>
+                                <div class="feature-details">
+                                    <span><i data-feather="smartphone" class="detail-icon"></i> Offline-first design</span>
+                                    <span><i data-feather="hard-drive" class="detail-icon"></i> Local file storage</span>
+                                    <span><i data-feather="refresh-cw" class="detail-icon"></i> Seamless sync when online</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature 6: Beautiful Design -->
+                    <div class="feature-accordion-item" data-feature="5">
+                        <div class="feature-accordion-content">
+                            <div class="feature-accordion-icon">
+                                <i data-feather="layout" class="feature-icon-svg"></i>
+                            </div>
+                            <div class="feature-accordion-info">
+                                <h3 class="typewriter-feature-title" data-text="Beautiful, Intuitive Design"></h3>
+                                <p class="feature-description">Clean, paper-inspired interface that makes organizing your thoughts feel natural and enjoyable.</p>
+                                <div class="feature-details">
+                                    <span><i data-feather="file-text" class="detail-icon"></i> Paper-like aesthetics</span>
+                                    <span><i data-feather="navigation" class="detail-icon"></i> Intuitive navigation</span>
+                                    <span><i data-feather="sun" class="detail-icon"></i> Clean light theme</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Progress Indicators -->
+                <div class="feature-progress">
+                    <div class="progress-dot active" data-feature="0"></div>
+                    <div class="progress-dot" data-feature="1"></div>
+                    <div class="progress-dot" data-feature="2"></div>
+                    <div class="progress-dot" data-feature="3"></div>
+                    <div class="progress-dot" data-feature="4"></div>
+                    <div class="progress-dot" data-feature="5"></div>
+                </div>
+            </div>
+            
+            <!-- See All Features CTA -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="/features" class="btn btn-primary" style="font-size: 1.1rem; padding: 1.25rem 2.5rem; display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none;">
+                    <i data-feather="arrow-right" style="width: 20px; height: 20px;"></i>
+                    See All Features in Detail
+                </a>
+                <p style="margin-top: 1rem; color: var(--text-common); opacity: 0.7; font-size: 0.95rem;">
+                    Explore detailed explanations, screenshots, and examples of every OktoNote feature
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download Section -->
+    <section class="app-links" id="download">
+        <div class="container">
+            <h2>Get OktoNote Today</h2>
+            <p>Available on all your favorite platforms</p>
+            <div class="app-buttons">
+                <a href="https://apps.apple.com/app/6749813362" class="app-btn app-store" target="_blank" rel="noopener noreferrer">
+                    <svg class="app-icon" viewBox="0 0 24 24" fill="currentColor" style="width: 2rem; height: 2rem;">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    <div class="app-text">
+                        <div class="small">Download on the</div>
+                        <div class="large">App Store</div>
+                    </div>
+                </a>
+                <a href="#" class="app-btn google-play" onclick="alert('Coming soon to Google Play!')">
+                    <svg class="app-icon" viewBox="0 0 24 24" fill="currentColor" style="width: 2rem; height: 2rem;">
+                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                    </svg>
+                    <div class="app-text">
+                        <div class="small">Get it on</div>
+                        <div class="large">Google Play</div>
+                    </div>
+                    <span class="coming-soon-badge">Coming Soon</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    {{> footer}}
+
+    <!-- Minimal JavaScript for animations -->
+    <script>
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Typewriter effect
+        function typewriterEffect(element, text, speed = 80, callback = null) {
+            element.textContent = '';
+            element.classList.remove('typing-complete');
+            let i = 0;
+            const timer = setInterval(() => {
+                if (i < text.length) {
+                    element.textContent += text.charAt(i);
+                    i++;
+                } else {
+                    clearInterval(timer);
+                    element.classList.add('typing-complete');
+                    if (callback) callback();
+                }
+            }, speed);
+            return timer;
+        }
+
+        // Feature Accordion Manager
+        class FeatureAccordion {
+            constructor() {
+                this.currentFeature = 0;
+                this.totalFeatures = 6;
+                this.isAnimating = false;
+                this.autoplayTimer = null;
+                this.typewriterTimer = null;
+                
+                this.featureItems = document.querySelectorAll('.feature-accordion-item');
+                this.progressDots = document.querySelectorAll('.progress-dot');
+                
+                this.init();
+            }
+            
+            init() {
+                // Set initial state
+                if (this.featureItems.length > 0) {
+                    this.featureItems[0].classList.add('active');
+                    this.showFeature(0);
+                }
+                
+                // Add click handlers to progress dots
+                this.progressDots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => {
+                        if (!this.isAnimating) {
+                            this.goToFeature(index);
+                        }
+                    });
+                });
+                
+                // Add hover pause functionality
+                const container = document.querySelector('.features-accordion');
+                if (container) {
+                    container.addEventListener('mouseenter', () => {
+                        this.pauseAutoplay();
+                    });
+                    
+                    container.addEventListener('mouseleave', () => {
+                        this.restartAutoplay();
+                    });
+                }
+                
+                // Start autoplay
+                this.startAutoplay();
+            }
+            
+            showFeature(index) {
+                const currentItem = this.featureItems[index];
+                if (!currentItem) return;
+                
+                const titleElement = currentItem.querySelector('.typewriter-feature-title');
+                const descriptionElement = currentItem.querySelector('.feature-description');
+                const detailsElement = currentItem.querySelector('.feature-details');
+                
+                if (titleElement) {
+                    const text = titleElement.getAttribute('data-text');
+                    
+                    // Clear previous content
+                    descriptionElement.classList.remove('visible');
+                    detailsElement.classList.remove('visible');
+                    
+                    // Start typewriter effect
+                    this.typewriterTimer = typewriterEffect(titleElement, text, 60, () => {
+                        // After typing is complete, show description and details
+                        setTimeout(() => {
+                            descriptionElement.classList.add('visible');
+                        }, 300);
+                        
+                        setTimeout(() => {
+                            detailsElement.classList.add('visible');
+                        }, 600);
+                    });
+                }
+            }
+            
+            goToFeature(index) {
+                if (index === this.currentFeature || this.isAnimating) return;
+                
+                this.isAnimating = true;
+                
+                // Clear any existing typewriter timer
+                if (this.typewriterTimer) {
+                    clearInterval(this.typewriterTimer);
+                }
+                
+                // Hide current feature
+                const currentItem = this.featureItems[this.currentFeature];
+                if (currentItem) {
+                    currentItem.classList.add('sliding-out');
+                    currentItem.classList.remove('active');
+                }
+                
+                // Update progress dots
+                this.progressDots[this.currentFeature].classList.remove('active');
+                this.progressDots[index].classList.add('active');
+                
+                // Show new feature after slide out animation
+                setTimeout(() => {
+                    if (currentItem) {
+                        currentItem.classList.remove('sliding-out');
+                    }
+                    
+                    const newItem = this.featureItems[index];
+                    if (newItem) {
+                        newItem.classList.add('active');
+                        this.showFeature(index);
+                    }
+                    
+                    this.currentFeature = index;
+                    this.isAnimating = false;
+                    
+                    // Restart autoplay
+                    this.restartAutoplay();
+                }, 400);
+            }
+            
+            nextFeature() {
+                const nextIndex = (this.currentFeature + 1) % this.totalFeatures;
+                this.goToFeature(nextIndex);
+            }
+            
+            startAutoplay() {
+                this.autoplayTimer = setInterval(() => {
+                    if (!this.isAnimating) {
+                        this.nextFeature();
+                    }
+                }, 5000); // 5 seconds per feature
+            }
+            
+            restartAutoplay() {
+                if (this.autoplayTimer) {
+                    clearInterval(this.autoplayTimer);
+                }
+                this.startAutoplay();
+            }
+            
+            pauseAutoplay() {
+                if (this.autoplayTimer) {
+                    clearInterval(this.autoplayTimer);
+                }
+            }
+        }
+
+        // Global feature accordion instance
+        let featureAccordion = null;
+
+        // Observe all hidden elements and workflow steps
+        document.addEventListener('DOMContentLoaded', () => {
+            const hiddenElements = document.querySelectorAll('.hidden');
+            const workflowSteps = document.querySelectorAll('.workflow-step');
+            
+            hiddenElements.forEach(el => observer.observe(el));
+            workflowSteps.forEach(el => observer.observe(el));
+            
+            // Start typewriter effect after a delay
+            setTimeout(() => {
+                const typewriterElement = document.querySelector('.typewriter-text');
+                if (typewriterElement) {
+                    const text = typewriterElement.getAttribute('data-text');
+                    typewriterEffect(typewriterElement, text, 80);
+                }
+            }, 2000);
+            
+            // Initialize Feather icons
+            if (typeof feather !== 'undefined') {
+                try {
+                    feather.replace();
+                } catch (error) {
+                    console.error('Feather icons error:', error);
+                }
+            }
+            
+            // Initialize feature accordion with delay to ensure visibility
+            setTimeout(() => {
+                const featuresSection = document.querySelector('#features');
+                if (featuresSection) {
+                    const sectionObserver = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting && !featureAccordion) {
+                                featureAccordion = new FeatureAccordion();
+                                sectionObserver.unobserve(entry.target);
+                            }
+                        });
+                    }, { threshold: 0.3 });
+                    
+                    sectionObserver.observe(featuresSection);
+                }
+            }, 1000);
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

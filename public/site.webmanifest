@@ -1,0 +1,10 @@
+{
+    "name": "OktoNote",
+    "short_name": "OktoNote",
+    "description": "AI-powered note-taking app that transforms any input into organized knowledge cards",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#E8EAED",
+    "theme_color": "#4B5EAA",
+    "icons": []
+}
