@@ -221,4 +221,16 @@
         </image:image>
     </url>
 
+    <url>
+        <loc>https://oktonote.app/blog/sticky-notes-ai-era-oktonote.html</loc>
+        <lastmod>2025-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://oktonote.app/assets/images/og_card.jpg</image:loc>
+            <image:title>Sticky Notes for the AI Era: OktoNote Revolution</image:title>
+            <image:caption>Evolution from paper sticky notes to AI-powered digital intelligence</image:caption>
+        </image:image>
+    </url>
+
 </urlset>

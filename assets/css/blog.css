@@ -222,14 +222,21 @@
     border: 1px solid var(--border-jagged);
 }
 
+/* Table Container for Mobile Scroll */
+.comparison-table {
+    overflow-x: auto;
+    margin: 2rem 0;
+    border-radius: 8px;
+    border: 2px solid var(--border-jagged);
+    background: var(--card-clean);
+    -webkit-overflow-scrolling: touch;
+}
+
 .article-content table {
     width: 100%;
     border-collapse: collapse;
-    margin: 2rem 0;
     background: var(--card-clean);
-    border: 2px solid var(--border-jagged);
-    border-radius: 8px;
-    overflow: hidden;
+    min-width: 600px; /* Ensure minimum table width */
 }
 
 .article-content th,
@@ -237,12 +244,98 @@
     padding: 1rem;
     text-align: left;
     border-bottom: 1px solid var(--border-jagged);
+    white-space: nowrap; /* Prevent text wrapping on desktop */
 }
 
 .article-content th {
     background: var(--paper-base);
     font-weight: 700;
     color: var(--text-heading);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Mobile-specific table optimizations */
+@media (max-width: 768px) {
+    .comparison-table {
+        margin: 1rem -1rem; /* Extend beyond container padding */
+    }
+    
+    .article-content th,
+    .article-content td {
+        padding: 0.75rem 0.5rem;
+        font-size: 0.9rem;
+        white-space: normal; /* Allow text wrapping on mobile */
+        min-width: 120px; /* Minimum column width */
+    }
+    
+    /* Make first column (Feature) sticky on mobile */
+    .article-content th:first-child,
+    .article-content td:first-child {
+        position: sticky;
+        left: 0;
+        background: var(--card-clean);
+        font-weight: 600;
+        border-right: 1px solid var(--border-jagged);
+        z-index: 2;
+    }
+    
+    .article-content th:first-child {
+        background: var(--paper-base);
+    }
+}
+
+/* Ultra small screens - Card-based table */
+@media (max-width: 480px) {
+    .comparison-table {
+        display: none; /* Hide table */
+    }
+    
+    /* Show mobile-friendly version */
+    .mobile-table {
+        display: block;
+    }
+    
+    .mobile-row {
+        background: var(--card-clean);
+        border: 1px solid var(--border-jagged);
+        border-radius: 8px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .mobile-row h4 {
+        color: var(--text-heading);
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .mobile-comparison {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .mobile-item {
+        padding: 0.5rem;
+        background: var(--paper-base);
+        border-radius: 4px;
+        font-size: 0.85rem;
+    }
+    
+    .mobile-item strong {
+        display: block;
+        color: var(--primary);
+        margin-bottom: 0.25rem;
+    }
+}
+
+/* Default: hide mobile version */
+.mobile-table {
+    display: none;
 }
 
 .cta-section {
