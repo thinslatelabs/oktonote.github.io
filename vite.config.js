@@ -21,7 +21,8 @@ export default defineConfig({
         'blog-ai': resolve(__dirname, 'blog/ai-era-stop-organizing-notes.html'),
         'blog-professionals': resolve(__dirname, 'blog/best-note-takers-professionals.html'),
         'blog-showdown': resolve(__dirname, 'blog/ai-note-taking-showdown-daily-vs-professional.html'),
-        'blog-comparison': resolve(__dirname, 'blog/oktonote-vs-mem-ai-complete-comparison.html')
+        'blog-comparison': resolve(__dirname, 'blog/oktonote-vs-mem-ai-complete-comparison.html'),
+        'blog-sticky-notes': resolve(__dirname, 'blog/sticky-notes-ai-era-oktonote.html')
       }
     }
   },
