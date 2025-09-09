@@ -41,6 +41,14 @@
         <priority>0.8</priority>
     </url>
 
+    <!-- FAQ Page - Frequently asked questions about AI features -->
+    <url>
+        <loc>https://oktonote.app/faq</loc>
+        <lastmod>2025-09-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
     <!-- Privacy Policy - Enhanced with data protection keywords -->
     <url>
         <loc>https://oktonote.app/privacy</loc>

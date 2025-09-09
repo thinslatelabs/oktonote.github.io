@@ -12,6 +12,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         features: resolve(__dirname, 'features.html'),
         support: resolve(__dirname, 'support.html'),
+        faq: resolve(__dirname, 'faq.html'),
         privacy: resolve(__dirname, 'privacy.html'),
         terms: resolve(__dirname, 'terms.html'),
         blog: resolve(__dirname, 'blog/index.html'),
