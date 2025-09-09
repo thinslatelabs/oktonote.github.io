@@ -10,7 +10,7 @@
     <!-- Homepage - Enhanced with comprehensive AI note-taking keywords -->
     <url>
         <loc>https://oktonote.app/</loc>
-        <lastmod>2025-09-01</lastmod>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
@@ -22,8 +22,8 @@
 
     <!-- Features Page - Detailed AI capabilities and 10 card types -->
     <url>
-        <loc>https://oktonote.app/features.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/features</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
         <image:image>
@@ -35,68 +35,68 @@
 
     <!-- Support Page - Comprehensive help and troubleshooting -->
     <url>
-        <loc>https://oktonote.app/support.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/support</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Privacy Policy - Enhanced with data protection keywords -->
     <url>
-        <loc>https://oktonote.app/privacy.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/privacy</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <!-- Terms of Service - Enhanced with legal and usage terms -->
     <url>
-        <loc>https://oktonote.app/terms.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/terms</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <!-- Specific Feature Sections (for deep linking) -->
     <url>
-        <loc>https://oktonote.app/features.html#input</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/features#input</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://oktonote.app/features.html#feed-view</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/features#feed-view</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://oktonote.app/features.html#timeline-view</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/features#timeline-view</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://oktonote.app/features.html#search</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/features#search</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <!-- Support Sections -->
     <url>
-        <loc>https://oktonote.app/support.html#faq</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/support#faq</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://oktonote.app/support.html#categories</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/support#categories</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -104,21 +104,21 @@
     <!-- Main Landing Page Sections -->
     <url>
         <loc>https://oktonote.app/#features</loc>
-        <lastmod>2025-09-01</lastmod>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
         <loc>https://oktonote.app/#how-it-works</loc>
-        <lastmod>2025-09-01</lastmod>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
         <loc>https://oktonote.app/#download</loc>
-        <lastmod>2025-09-01</lastmod>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -126,7 +126,7 @@
     <!-- Blog Index - AI productivity tips and digital organization guides -->
     <url>
         <loc>https://oktonote.app/blog/</loc>
-        <lastmod>2025-09-01</lastmod>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
         <image:image>
@@ -138,8 +138,8 @@
 
     <!-- Blog Posts - Enhanced with comprehensive keyword coverage -->
     <url>
-        <loc>https://oktonote.app/blog/how-to-journal-in-2025.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/blog/how-to-journal-in-2025</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
@@ -150,8 +150,8 @@
     </url>
 
     <url>
-        <loc>https://oktonote.app/blog/travel-utility-no-one-thinks-about.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/blog/travel-utility-no-one-thinks-about</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
@@ -162,8 +162,8 @@
     </url>
 
     <url>
-        <loc>https://oktonote.app/blog/quickest-way-capture-thoughts.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/blog/quickest-way-capture-thoughts</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
@@ -174,8 +174,8 @@
     </url>
 
     <url>
-        <loc>https://oktonote.app/blog/ai-era-stop-organizing-notes.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/blog/ai-era-stop-organizing-notes</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
@@ -186,8 +186,8 @@
     </url>
 
     <url>
-        <loc>https://oktonote.app/blog/best-note-takers-professionals.html</loc>
-        <lastmod>2025-09-01</lastmod>
+        <loc>https://oktonote.app/blog/best-note-takers-professionals</loc>
+        <lastmod>2025-09-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
@@ -198,7 +198,7 @@
     </url>
 
     <url>
-        <loc>https://oktonote.app/blog/ai-note-taking-showdown-daily-vs-professional.html</loc>
+        <loc>https://oktonote.app/blog/ai-note-taking-showdown-daily-vs-professional</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -210,7 +210,7 @@
     </url>
 
     <url>
-        <loc>https://oktonote.app/blog/oktonote-vs-mem-ai-complete-comparison.html</loc>
+        <loc>https://oktonote.app/blog/oktonote-vs-mem-ai-complete-comparison</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -222,7 +222,7 @@
     </url>
 
     <url>
-        <loc>https://oktonote.app/blog/sticky-notes-ai-era-oktonote.html</loc>
+        <loc>https://oktonote.app/blog/sticky-notes-ai-era-oktonote</loc>
         <lastmod>2025-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
